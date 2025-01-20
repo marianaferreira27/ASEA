@@ -5,21 +5,36 @@ h1 {
 }
 
 #header {
-    width: 65%;
+    width: auto;
     padding-top: 20px;
     border-bottom-right-radius: 30px;
     filter: drop-shadow(6px 6px 8px gray);
 }
 
-h3.header {
-    text-align: center;
-    font-size: 40px;
-    font-weight:600;
-    padding-top: 60px;
-}
-
 div.header {
     display: grid;
     padding-top: 20px;
-    grid-template-columns: 65% 55%;
+    grid-template-columns: 55% 35%;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-gap: 20px;
+}
+
+h3.header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    align-self: center;
+    justify-self: start;
+}
+
+div.cursos_index {
+    display: grid;
+    padding: 80px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    background-color: gray;
+    border-radius: 20px;
 }
