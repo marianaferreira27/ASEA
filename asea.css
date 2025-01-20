@@ -1,0 +1,25 @@
+body,h1,h2,h3,h4,h5,h6,div,a {font-family: "Raleway", sans-serif}
+
+h1 {
+    text-align: center;
+}
+
+#header {
+    width: 65%;
+    padding-top: 20px;
+    border-bottom-right-radius: 30px;
+    filter: drop-shadow(6px 6px 8px gray);
+}
+
+h3.header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:600;
+    padding-top: 60px;
+}
+
+div.header {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 65% 55%;
+}
