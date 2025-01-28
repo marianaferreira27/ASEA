@@ -5,42 +5,100 @@ h1 {
 }
 
 #header {
-    width: auto;
-    padding-top: 20px;
-    border-bottom-right-radius: 30px;
-    filter: drop-shadow(6px 6px 8px gray);
-}
+    width: 100%;
+    height: 50%;
+    opacity: 0.8; /* Adiciona leve transparência à imagem */
+  }
+  
+    
 
-div.header {
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+   justify-content: space-between;
+   
+    
+  }
+  
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    
+  }
+
+  /*.navbar a:hover {
+    text-decoration: underline;
+  }*/
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    padding-top: 8px;
+    
+  }
+  
+  .menu {
+    
+   
+    
+
+  }
+
+/* .barranav{
+    background-color: blue;
+} */
+
+/*.imgcapa {
     display: grid;
     padding-top: 20px;
     grid-template-columns: 55% 35%;
     align-items: center;
     justify-content: space-between;
-    grid-column-gap: 20px;
-}
+    grid-column-gap: 20px; 
+    
+} */
+.imgcapa {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 
-h3.header {
+h3.imgcapa {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
     margin: 0;
-    align-self: center;
     justify-self: start;
 }
 
 .cursos {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 50px;
-    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:8px;
+    padding: 32px;  
+
+}
+
+.curso-card {
+    background-color: rgba(204, 204, 204, 0.441);
+    padding: 16px;
+    width: min-content;
+    border-radius: 16px;
+    
 }
   
-.cursos > div {
-    background-color: rgba(211, 211, 211, 0.441);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+.cursos  img {
     height: 200px;
+    width: 300px;
+    border-radius: 16px;
+}
+.tsiwlink{
+    justify-content: center;
 }
