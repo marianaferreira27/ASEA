@@ -5,11 +5,11 @@ h1 {
 }
 
 #header {
-    width: 100%;
-    height: 50%;
-    opacity: 0.8; /* Adiciona leve transparência à imagem */
-  }
-  
+    width: 100%; /* Mantém a largura total */
+    height: 800px; /* Define a altura desejada*/
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+    opacity: 0.9; /* Mantém a transparência já definida */
+}
     
 
 .navbar {
@@ -31,10 +31,6 @@ h1 {
     
   }
 
-  /*.navbar a:hover {
-    text-decoration: underline;
-  }*/
-
   .logo {
     font-size: 20px;
     font-weight: bold;
@@ -42,40 +38,33 @@ h1 {
     padding-top: 8px;
     
   }
-  
-  .menu {
-    
-   
-    
 
-  }
 
-/* .barranav{
-    background-color: blue;
-} */
-
-/*.imgcapa {
-    display: grid;
-    padding-top: 20px;
-    grid-template-columns: 55% 35%;
-    align-items: center;
-    justify-content: space-between;
-    grid-column-gap: 20px; 
-    
-} */
 .imgcapa {
     position: relative;
     text-align: center;
     color: white;
   }
 
-h3.imgcapa {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0;
-    justify-self: start;
+  .texto-sobre-imagem {
+    position: absolute; /* Coloca o texto sobre a imagem */
+    top: 50%; /* Alinha verticalmente */
+    left: 50%; /* Alinha horizontalmente */
+    transform: translate(-50%, -50%); 
+    color: white; /* Cor do texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adiciona sombra para melhor legibilidade */
 }
+
+.texto-sobre-imagem h1 {
+    font-size: 100px; /* Tamanho do título */
+    margin: 0;
+}
+
+.texto-sobre-imagem h3 {
+    font-size: 50px; /* Tamanho do subtítulo */
+    margin: 8px 0 0;
+}
+
 
 .cursos {
     display: flex;
@@ -93,12 +82,13 @@ h3.imgcapa {
     border-radius: 16px;
     
 }
+.paragrafo-1 {
+   text-align: justify;
+    margin: 20px auto; /* Adiciona espaço acima e abaixo do parágrafo */
+    max-width: 1000px; /* Limita a largura do parágrafo */
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    color: #333; /* Define uma cor agradável para o texto */
+}
   
-.cursos  img {
-    height: 200px;
-    width: 300px;
-    border-radius: 16px;
-}
-.tsiwlink{
-    justify-content: center;
-}
+
