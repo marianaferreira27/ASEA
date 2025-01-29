@@ -38,7 +38,7 @@ h1 {
   .logo {
     font-size: 20px;
     font-weight: bold;
-    color: blue;
+    color:black;
     padding-top: 8px;
     
   }
@@ -69,16 +69,6 @@ h1 {
     margin: 8px 0 0;
 }
 
-
-.cursos {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap:8px;
-    padding: 32px;  
-
-}
-
 .curso-card {
     background-color: rgba(204, 204, 204, 0.441);
     padding: 16px;
@@ -90,7 +80,7 @@ h1 {
   max-width: 1200px; /* Define uma largura máxima para o conteúdo */
   margin: 0 auto; /* Centraliza o conteúdo na página */
   padding: 20px; /* Adiciona um espaçamento interno */
-  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+  
 }
 
 .conteiner h1 {
@@ -117,6 +107,7 @@ h1 {
 
 
 
+
 @media screen and (max-width: 768px) {
     #header {
       height: 50vh; /* Altura menor para telas pequenas */
@@ -140,3 +131,4 @@ h1 {
       padding: 0 15px; /* Adiciona margens laterais */
     }
   }
+  
