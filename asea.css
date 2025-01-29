@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 
-#header {
+#header1 {
     width: 100%; /* Mantém a largura total */
     height: 90vh; /* Define a altura desejada*/
     object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
@@ -16,7 +16,7 @@ h1 {
 }
     
 
-.navbar {
+.navbar1 {
     display: flex;
     align-items: center;
     background-color: whitesmoke;
@@ -27,7 +27,7 @@ h1 {
   }
   
 
-  .navbar a {
+  .navbar1 a {
     color: black;
     text-decoration: none;
     margin: 0 15px;
@@ -35,7 +35,7 @@ h1 {
     
   }
 
-  .logo {
+  .logo1 {
     font-size: 20px;
     font-weight: bold;
     color:black;
@@ -44,13 +44,13 @@ h1 {
   }
 
 
-.imgcapa {
+.imgcapa1 {
     position: relative;
     text-align: center;
     color: white;
   }
 
-  .texto-sobre-imagem {
+  .texto-sobre-imagem1 {
     position: absolute; /* Coloca o texto sobre a imagem */
     top: 50%; /* Alinha verticalmente */
     left: 50%; /* Alinha horizontalmente */
@@ -59,31 +59,31 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adiciona sombra para melhor legibilidade */
 }
 
-.texto-sobre-imagem h1 {
+.texto-sobre-imagem1 h1 {
     font-size: 5vw; /* Tamanho do título */
     margin: 0;
 }
 
-.texto-sobre-imagem h3 {
+.texto-sobre-imagem1 h3 {
     font-size: 2vw; /* Tamanho do subtítulo */
     margin: 8px 0 0;
 }
 
-.curso-card {
+.curso-card1 {
     background-color: rgba(204, 204, 204, 0.441);
     padding: 16px;
     width: min-content;
     border-radius: 16px;
     
 }
-.conteiner {
+.conteiner1 {
   max-width: 1200px; /* Define uma largura máxima para o conteúdo */
   margin: 0 auto; /* Centraliza o conteúdo na página */
   padding: 20px; /* Adiciona um espaçamento interno */
   
 }
 
-.conteiner h1 {
+.conteiner1 h1 {
   font-size: 2.5rem; /* Tamanho do título */
   margin-bottom: 20px; /* Espaçamento abaixo do título */
   color: #333; /* Cor do título */
@@ -91,13 +91,13 @@ h1 {
   font-weight: bold;
 }
 
-.conteiner p {
+.conteiner1 p {
   font-size: 1.1rem; /* Tamanho do parágrafo */
   line-height: 1.8; /* Espaçamento entre linhas */
   color: #555; /* Cor do texto */
   margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
 }
-.conteiner h2{
+.conteiner1 h2{
   font-size: 2.5rem; /* Tamanho do título */
   margin-bottom: 20px; /* Espaçamento abaixo do título */
   color: #333; /* Cor do título */
@@ -109,19 +109,19 @@ h1 {
 
 
 @media screen and (max-width: 768px) {
-    #header {
+    #header1 {
       height: 50vh; /* Altura menor para telas pequenas */
     }
   
-    .texto-sobre-imagem h1 {
+    .texto-sobre-imagem1 h1 {
       font-size: 8vw; /* Tamanho proporcional */
     }
   
-    .texto-sobre-imagem h3 {
+    .texto-sobre-imagem1 h3 {
       font-size: 4vw;
     }
   
-    .navbar {
+    .navbar1 {
       flex-direction: column; /* Menu em coluna */
       padding: 10px;
     }
@@ -131,4 +131,159 @@ h1 {
       padding: 0 15px; /* Adiciona margens laterais */
     }
   }
+  
+
+  /*css da pagina cursos*/
+
+  #header2{
+    width: 100%; /* Mantém a largura total */
+    height: 90vh; /* Define a altura desejada*/
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+    opacity: 0.9; /* Mantém a transparência já definida */
+    margin-bottom: 20px; /*mantem a distancia a baixo da imagem de capa*/
+  }
+  
+  
+    .navbar2 {
+      display: flex;
+      align-items: center;
+      background-color: whitesmoke;
+      padding: 20px 20px;
+     justify-content: space-between;
+     
+      
+    }
+    
+    .card2 img{
+      width: auto;
+      height:200px ;
+    }
+  
+    .navbar2 a {
+      color: black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      
+    }
+  
+    .logo2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      padding-top: 8px;
+      
+    }
+    .conteiner2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .conteiner2 img{
+      width: 100%;
+      height: 200px;
+  
+      border-radius: 10px;
+    
+    }
+    .conteiner2 div {
+      background: #ffffff;
+      border: 1px solid #dedede;
+      border-radius: 9px;
+      padding: 10px;
+      width: 400px;
+    }
+    .conteiner2 p {
+      margin-top: 10px;
+      font-size: 20px;
+      color:black;
+      font-weight: bold;
+      text-align: center;
+      margin: 5px;
+    }
+  
+    @media screen and (max-width: 768px) {
+      #header2 {
+        height: 50vh; /* Altura menor para telas pequenas */
+      }
+  
+    
+      .navbar2 {
+        flex-direction: column; /* Menu em coluna */
+        padding: 10px;
+      }
+    
+    
+    }
+    /*css da pagina licenciaturaLCA*/
+
+    #header3 {
+      width: 100%; /* Mantém a largura total */
+      height: 90vh; /* Define a altura desejada*/
+      object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+      opacity: 0.9; /* Mantém a transparência já definida */
+  }
+  
+  .navbar3 {
+      display: flex;
+      align-items: center;
+      background-color: whitesmoke;
+      padding: 20px 20px;
+     justify-content: space-between;
+      
+    }
+    
+    .navbar3 a {
+      color: black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      
+    }
+    .imgcapa3 {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+  
+    .logo3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      padding-top: 8px;
+      
+    }
+    .texto-sobre-imagem3 {
+      position: absolute; /* Coloca o texto sobre a imagem */
+      top: 50%; /* Alinha verticalmente */
+      left: 50%; /* Alinha horizontalmente */
+      transform: translate(-50%, -50%); 
+      color: white; /* Cor do texto */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adiciona sombra para melhor legibilidade */
+  }
+  
+  
+  .texto-sobre-imagem3 h3 {
+    font-size: 2vw; /* Tamanho do subtítulo */
+    margin: 8px 0 0;
+  }
+  .texto-sobre-imagem3 h1 {
+    font-size: 5vw; /* Tamanho do título */
+    margin: 0;
+  }
+  .conteiner3 {
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    
+  }
+  .conteiner3 p {
+    font-size: 1.1rem; /* Tamanho do parágrafo */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    color: #555; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+  }
+  
   
