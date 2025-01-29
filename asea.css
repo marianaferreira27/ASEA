@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body,h1,h2,h3,h4,h5,h6,div,a {font-family: "Raleway", sans-serif}
 
 h1 {
@@ -6,7 +10,7 @@ h1 {
 
 #header {
     width: 100%; /* Mantém a largura total */
-    height: 800px; /* Define a altura desejada*/
+    height: 90vh; /* Define a altura desejada*/
     object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
     opacity: 0.9; /* Mantém a transparência já definida */
 }
@@ -56,12 +60,12 @@ h1 {
 }
 
 .texto-sobre-imagem h1 {
-    font-size: 100px; /* Tamanho do título */
+    font-size: 5vw; /* Tamanho do título */
     margin: 0;
 }
 
 .texto-sobre-imagem h3 {
-    font-size: 50px; /* Tamanho do subtítulo */
+    font-size: 2vw; /* Tamanho do subtítulo */
     margin: 8px 0 0;
 }
 
@@ -82,13 +86,57 @@ h1 {
     border-radius: 16px;
     
 }
-.paragrafo-1 {
-   text-align: justify;
-    margin: 20px auto; /* Adiciona espaço acima e abaixo do parágrafo */
-    max-width: 1000px; /* Limita a largura do parágrafo */
-    line-height: 1.8; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
-    font-size: 18px; /* Ajusta o tamanho da fonte */
-    color: #333; /* Define uma cor agradável para o texto */
+.conteiner {
+  max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  padding: 20px; /* Adiciona um espaçamento interno */
+  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
 }
-  
 
+.conteiner h1 {
+  font-size: 2.5rem; /* Tamanho do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  color: #333; /* Cor do título */
+  text-align: justify; /* Centraliza o título */
+  font-weight: bold;
+}
+
+.conteiner p {
+  font-size: 1.1rem; /* Tamanho do parágrafo */
+  line-height: 1.8; /* Espaçamento entre linhas */
+  color: #555; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+.conteiner h2{
+  font-size: 2.5rem; /* Tamanho do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  color: #333; /* Cor do título */
+  text-align: justify; /* Centraliza o título */
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #header {
+      height: 50vh; /* Altura menor para telas pequenas */
+    }
+  
+    .texto-sobre-imagem h1 {
+      font-size: 8vw; /* Tamanho proporcional */
+    }
+  
+    .texto-sobre-imagem h3 {
+      font-size: 4vw;
+    }
+  
+    .navbar {
+      flex-direction: column; /* Menu em coluna */
+      padding: 10px;
+    }
+  
+  
+    .paragrafo-1 {
+      padding: 0 15px; /* Adiciona margens laterais */
+    }
+  }
