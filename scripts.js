@@ -23,7 +23,7 @@ document.querySelectorAll('.menu a').forEach(link => {
     }
 });
 
-// 6. Efeito de toggle nas seções dos passos
+// Efeito de toggle nas seções dos passos
 document.querySelectorAll('h2').forEach(header => {
     header.style.cursor = 'pointer';
     header.addEventListener('click', () => {
@@ -31,3 +31,4 @@ document.querySelectorAll('h2').forEach(header => {
         content.style.display = content.style.display === 'none' ? 'block' : 'none';
     });
 });
+
